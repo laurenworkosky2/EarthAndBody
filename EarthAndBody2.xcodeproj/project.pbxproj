@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EAECF822F31E9B00EEFDCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAECF722F31E9B00EEFDCA /* AppDelegate.swift */; };
+		18EAECFA22F31E9B00EEFDCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAECF922F31E9B00EEFDCA /* ViewController.swift */; };
+		18EAECFD22F31E9B00EEFDCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EAECFB22F31E9B00EEFDCA /* Main.storyboard */; };
+		18EAED0022F31E9B00EEFDCA /* EarthAndBody2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18EAECFE22F31E9B00EEFDCA /* EarthAndBody2.xcdatamodeld */; };
+		18EAED0222F31E9C00EEFDCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EAED0122F31E9C00EEFDCA /* Assets.xcassets */; };
+		18EAED0522F31E9C00EEFDCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EAED0322F31E9C00EEFDCA /* LaunchScreen.storyboard */; };
+		18EAED0F22F3207900EEFDCA /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAED0E22F3207900EEFDCA /* RecipeTableViewController.swift */; };
+		18EAED1122F320BC00EEFDCA /* AddNewRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAED1022F320BC00EEFDCA /* AddNewRecipeViewController.swift */; };
+		18EAED1322F3213800EEFDCA /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAED1222F3213800EEFDCA /* RecipeDetailViewController.swift */; };
+		18EAED1522F3219E00EEFDCA /* ImageUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAED1422F3219E00EEFDCA /* ImageUtilities.swift */; };
+		18EAED1722F32E2D00EEFDCA /* DietMotivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAED1622F32E2D00EEFDCA /* DietMotivationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18EAECF422F31E9B00EEFDCA /* EarthAndBody2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthAndBody2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EAECF722F31E9B00EEFDCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EAECF922F31E9B00EEFDCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18EAECFC22F31E9B00EEFDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EAECFF22F31E9B00EEFDCA /* EarthAndBody2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarthAndBody2.xcdatamodel; sourceTree = "<group>"; };
+		18EAED0122F31E9C00EEFDCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EAED0422F31E9C00EEFDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EAED0622F31E9C00EEFDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EAED0E22F3207900EEFDCA /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
+		18EAED1022F320BC00EEFDCA /* AddNewRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeViewController.swift; sourceTree = "<group>"; };
+		18EAED1222F3213800EEFDCA /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		18EAED1422F3219E00EEFDCA /* ImageUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtilities.swift; sourceTree = "<group>"; };
+		18EAED1622F32E2D00EEFDCA /* DietMotivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietMotivationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EAECF122F31E9B00EEFDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EAECEB22F31E9B00EEFDCA = {
+			isa = PBXGroup;
+			children = (
+				18EAECF622F31E9B00EEFDCA /* EarthAndBody2 */,
+				18EAECF522F31E9B00EEFDCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EAECF522F31E9B00EEFDCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EAECF422F31E9B00EEFDCA /* EarthAndBody2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EAECF622F31E9B00EEFDCA /* EarthAndBody2 */ = {
+			isa = PBXGroup;
+			children = (
+				18EAECF722F31E9B00EEFDCA /* AppDelegate.swift */,
+				18EAECF922F31E9B00EEFDCA /* ViewController.swift */,
+				18EAECFB22F31E9B00EEFDCA /* Main.storyboard */,
+				18EAED0122F31E9C00EEFDCA /* Assets.xcassets */,
+				18EAED0322F31E9C00EEFDCA /* LaunchScreen.storyboard */,
+				18EAED0622F31E9C00EEFDCA /* Info.plist */,
+				18EAECFE22F31E9B00EEFDCA /* EarthAndBody2.xcdatamodeld */,
+				18EAED0E22F3207900EEFDCA /* RecipeTableViewController.swift */,
+				18EAED1022F320BC00EEFDCA /* AddNewRecipeViewController.swift */,
+				18EAED1222F3213800EEFDCA /* RecipeDetailViewController.swift */,
+				18EAED1422F3219E00EEFDCA /* ImageUtilities.swift */,
+				18EAED1622F32E2D00EEFDCA /* DietMotivationViewController.swift */,
+			);
+			path = EarthAndBody2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EAECF322F31E9B00EEFDCA /* EarthAndBody2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EAED0922F31E9C00EEFDCA /* Build configuration list for PBXNativeTarget "EarthAndBody2" */;
+			buildPhases = (
+				18EAECF022F31E9B00EEFDCA /* Sources */,
+				18EAECF122F31E9B00EEFDCA /* Frameworks */,
+				18EAECF222F31E9B00EEFDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthAndBody2;
+			productName = EarthAndBody2;
+			productReference = 18EAECF422F31E9B00EEFDCA /* EarthAndBody2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EAECEC22F31E9B00EEFDCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Lauren Workosky";
+				TargetAttributes = {
+					18EAECF322F31E9B00EEFDCA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 18EAECEF22F31E9B00EEFDCA /* Build configuration list for PBXProject "EarthAndBody2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EAECEB22F31E9B00EEFDCA;
+			productRefGroup = 18EAECF522F31E9B00EEFDCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EAECF322F31E9B00EEFDCA /* EarthAndBody2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EAECF222F31E9B00EEFDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EAED0522F31E9C00EEFDCA /* LaunchScreen.storyboard in Resources */,
+				18EAED0222F31E9C00EEFDCA /* Assets.xcassets in Resources */,
+				18EAECFD22F31E9B00EEFDCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EAECF022F31E9B00EEFDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EAED1322F3213800EEFDCA /* RecipeDetailViewController.swift in Sources */,
+				18EAED0022F31E9B00EEFDCA /* EarthAndBody2.xcdatamodeld in Sources */,
+				18EAED1122F320BC00EEFDCA /* AddNewRecipeViewController.swift in Sources */,
+				18EAED0F22F3207900EEFDCA /* RecipeTableViewController.swift in Sources */,
+				18EAED1722F32E2D00EEFDCA /* DietMotivationViewController.swift in Sources */,
+				18EAECFA22F31E9B00EEFDCA /* ViewController.swift in Sources */,
+				18EAED1522F3219E00EEFDCA /* ImageUtilities.swift in Sources */,
+				18EAECF822F31E9B00EEFDCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18EAECFB22F31E9B00EEFDCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EAECFC22F31E9B00EEFDCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EAED0322F31E9C00EEFDCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EAED0422F31E9C00EEFDCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EAED0722F31E9C00EEFDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EAED0822F31E9C00EEFDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EAED0A22F31E9C00EEFDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M84TQK8SGR;
+				INFOPLIST_FILE = EarthAndBody2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Workosky.EarthAndBody2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EAED0B22F31E9C00EEFDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M84TQK8SGR;
+				INFOPLIST_FILE = EarthAndBody2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Workosky.EarthAndBody2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EAECEF22F31E9B00EEFDCA /* Build configuration list for PBXProject "EarthAndBody2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EAED0722F31E9C00EEFDCA /* Debug */,
+				18EAED0822F31E9C00EEFDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EAED0922F31E9C00EEFDCA /* Build configuration list for PBXNativeTarget "EarthAndBody2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EAED0A22F31E9C00EEFDCA /* Debug */,
+				18EAED0B22F31E9C00EEFDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18EAECFE22F31E9B00EEFDCA /* EarthAndBody2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18EAECFF22F31E9B00EEFDCA /* EarthAndBody2.xcdatamodel */,
+			);
+			currentVersion = 18EAECFF22F31E9B00EEFDCA /* EarthAndBody2.xcdatamodel */;
+			path = EarthAndBody2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18EAECEC22F31E9B00EEFDCA /* Project object */;
+}
