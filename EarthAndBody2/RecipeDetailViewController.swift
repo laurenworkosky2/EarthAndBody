@@ -14,7 +14,8 @@ class RecipeDetailPleaseViewController: UIViewController {
         super.viewDidLoad()
         if let realRecipe = recipe {
             title = realRecipe.caption
-            
+            ingredientsOutlet.text = realRecipe.ingredients
+            instructionsOutlet.text = realRecipe.instructions
             if let cellPhotoImageData = realRecipe.imageData {
                 if let cellPhotoImage = UIImage(data: cellPhotoImageData) {
                     photoOutlet.image = cellPhotoImage
@@ -37,4 +38,8 @@ class RecipeDetailPleaseViewController: UIViewController {
     
     @IBOutlet weak var photoOutlet: UIImageView!
     var recipe : Recipes? = nil
+    
+    @IBOutlet weak var ingredientsOutlet: UITextView!
+    @IBOutlet weak var instructionsOutlet: UITextView!
+    
 }

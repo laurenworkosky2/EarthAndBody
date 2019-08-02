@@ -41,15 +41,19 @@ class AddNewRecipeViewController: UIViewController, UINavigationControllerDelega
         
         imagePicker.dismiss(animated: true, completion: nil)
     }
+    @IBOutlet weak var recipeIngredients: UITextView!
     
     @IBOutlet weak var recipeName: UITextField!
     
+    @IBOutlet weak var recipeInstructions: UITextView!
     
     @IBAction func saveRecipe(_ sender: Any) {
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
             
             let photoToSave = Recipes(entity: Recipes.entity(), insertInto: context)
             photoToSave.caption = recipeName.text
+            photoToSave.instructions = recipeInstructions.text
+            photoToSave.ingredients = recipeIngredients.text
             
             if let userImage = recipeImage.image {
                 if let userImageData = userImage.pngData(){
@@ -67,6 +71,8 @@ class AddNewRecipeViewController: UIViewController, UINavigationControllerDelega
             
             let photoToSave = Recipes(entity: Recipes.entity(), insertInto: context)
             photoToSave.caption = recipeName.text
+            photoToSave.instructions = recipeInstructions.text
+            photoToSave.ingredients = recipeIngredients.text
             
             if let userImage = recipeImage.image {
                 if let userImageData = userImage.pngData(){
