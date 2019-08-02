@@ -54,27 +54,6 @@
                                     <segue destination="Lk9-xT-sEq" kind="show" id="E0A-PY-2VC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsy-6g-bUw">
-                                <rect key="frame" x="0.0" y="785" width="834" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="35"/>
-                                <state key="normal" title="Recipe Generator">
-                                    <color key="titleColor" red="0.98823529409999999" green="0.88235294119999996" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTO-fP-c0h">
-                                <rect key="frame" x="0.0" y="878" width="834" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="35"/>
-                                <state key="normal" title="About Us">
-                                    <color key="titleColor" red="0.98823529409999999" green="0.88235294119999996" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="lJf-rx-zb2" kind="show" id="I5a-jp-FSY"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Earth and Body" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llL-de-pos">
                                 <rect key="frame" x="195" y="141" width="445" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -86,6 +65,18 @@
                                 <rect key="frame" x="234" y="219" width="367" height="271"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTO-fP-c0h">
+                                <rect key="frame" x="0.0" y="785" width="834" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="35"/>
+                                <state key="normal" title="About Us">
+                                    <color key="titleColor" red="0.98823529409999999" green="0.88235294119999996" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lJf-rx-zb2" kind="show" id="I5a-jp-FSY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99607843137254903" green="0.97647058823529409" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -551,6 +542,14 @@ Salsa or additional hot sauce, for serving</string>
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6M9-QK-YSP">
+                                <rect key="frame" x="124" y="138" width="196" height="227"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="180"/>
+                                <state key="normal" title="🐖"/>
+                                <connections>
+                                    <action selector="clickPig:" destination="Lk9-xT-sEq" eventType="touchUpInside" id="gCg-9h-hCz"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOv-9X-D88">
                                 <rect key="frame" x="124" y="444" width="196" height="163"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="180"/>
@@ -567,12 +566,6 @@ Salsa or additional hot sauce, for serving</string>
                                     <action selector="clickChicken:" destination="Lk9-xT-sEq" eventType="touchUpInside" id="x6h-4s-TNk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Need some motivation for your diet?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhQ-yA-7q6">
-                                <rect key="frame" x="99" y="92" width="638" height="77"/>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="39"/>
-                                <color key="textColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tap an animal to see why you shouldn't eat it" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6H7-fn-6aJ">
                                 <rect key="frame" x="26" y="1006" width="782" height="43"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="39"/>
@@ -609,28 +602,24 @@ Salsa or additional hot sauce, for serving</string>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6M9-QK-YSP">
-                                <rect key="frame" x="124" y="138" width="196" height="227"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="180"/>
-                                <state key="normal" title="🐖"/>
-                                <connections>
-                                    <action selector="clickPig:" destination="Lk9-xT-sEq" eventType="touchUpInside" id="gCg-9h-hCz"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Need some motivation for your diet?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhQ-yA-7q6">
+                                <rect key="frame" x="57" y="99" width="698" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="39"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.98823529409999999" green="0.88235294119999996" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="gOv-9X-D88" firstAttribute="top" secondItem="6M9-QK-YSP" secondAttribute="bottom" constant="70" id="43v-YZ-il9"/>
                             <constraint firstItem="gOv-9X-D88" firstAttribute="centerX" secondItem="dbG-Np-nI7" secondAttribute="centerX" constant="-195" id="AIT-mL-0O1"/>
                             <constraint firstItem="6H7-fn-6aJ" firstAttribute="centerX" secondItem="dbG-Np-nI7" secondAttribute="centerX" id="FNq-A0-aT9"/>
-                            <constraint firstItem="rhQ-yA-7q6" firstAttribute="centerX" secondItem="dbG-Np-nI7" secondAttribute="centerX" constant="1" id="HxG-fr-MTe"/>
                             <constraint firstItem="OGd-Pg-gNa" firstAttribute="top" secondItem="gOv-9X-D88" secondAttribute="bottom" constant="75" id="I5g-u9-Rh1"/>
-                            <constraint firstItem="rhQ-yA-7q6" firstAttribute="top" secondItem="NUa-7B-TbP" secondAttribute="bottom" constant="28" id="KkN-0q-qvY"/>
                             <constraint firstItem="6H7-fn-6aJ" firstAttribute="leading" secondItem="1aT-wN-hcO" secondAttribute="leading" constant="26" id="PEp-vV-4V6"/>
                             <constraint firstItem="6H7-fn-6aJ" firstAttribute="top" secondItem="OGd-Pg-gNa" secondAttribute="bottom" constant="97" id="Qyw-ZT-OdX"/>
                             <constraint firstItem="gOv-9X-D88" firstAttribute="leading" secondItem="1aT-wN-hcO" secondAttribute="leading" constant="124" id="ZDZ-Qy-szM"/>
                             <constraint firstItem="OGd-Pg-gNa" firstAttribute="leading" secondItem="1aT-wN-hcO" secondAttribute="leading" constant="124" id="ky4-EK-8Y2"/>
-                            <constraint firstItem="rhQ-yA-7q6" firstAttribute="leading" secondItem="1aT-wN-hcO" secondAttribute="leading" constant="99" id="o4d-sg-Vxa"/>
                             <constraint firstItem="6M9-QK-YSP" firstAttribute="leading" secondItem="1aT-wN-hcO" secondAttribute="leading" constant="124" id="vTF-7X-1ym"/>
                             <constraint firstItem="6M9-QK-YSP" firstAttribute="top" secondItem="NUa-7B-TbP" secondAttribute="bottom" constant="74" id="w1X-HN-bQ9"/>
                             <constraint firstItem="6M9-QK-YSP" firstAttribute="centerX" secondItem="dbG-Np-nI7" secondAttribute="centerX" constant="-195" id="xON-Cq-Kz9"/>
@@ -646,7 +635,7 @@ Salsa or additional hot sauce, for serving</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oda-DM-wQU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2141" y="-557"/>
+            <point key="canvasLocation" x="2140.2877697841727" y="-557.37410071942452"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Wgu-D5-gK5">
@@ -1027,15 +1016,15 @@ Pinch of cinnamon, optional
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jo1-nk-BG9">
-                                                <rect key="frame" x="78" y="2849" width="636" height="333.5"/>
+                                                <rect key="frame" x="78" y="2849" width="636" height="475"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">INSTRUCTIONS
+                                                <mutableString key="text">INSTRUCTIONS
 
 
 1. In a mixing bowl, whisk together the dry ingredients: oat flour, baking powder, salt and cinnamon. In another bowl, whisk together the wet ingredients: milk, melted coconut oil or butter, eggs, maple syrup and vanilla extract. (If your coconut oil solidifies on contact with cold ingredients, gently heat the wet mixture in the microwave in ten seconds intervals, until it melts again.)
 2. Pour the wet ingredients into the dry ingredients. Stir with a big spoon until just combined (the batter will still be a little lumpy). Let the batter rest for 10 minutes so the oat flour has time to soak up some of the moisture. Plug in your waffle iron to preheat now (if your waffle iron has a temperature/browning dial, set it to medium-high).
 3. Once 10 minutes is up, give the batter one more swirl with your spoon. Pour batter onto the heated waffle iron, enough to cover the center and most of the central surface area, and close the lid. Once the waffle is deeply golden and crisp, transfer it to a cooling rack or baking sheet. Don’t stack your waffles on top of each other, or they’ll lose crispness. If desired, keep your waffles        4. warm by placing them in a 200 degree oven until you’re ready to serve.
-5. Repeat with remaining batter. Serve waffles with maple syrup and nut butter, or any other toppings that sound good!</string>
+5. Repeat with remaining batter. Serve waffles with maple syrup and nut butter, or any other toppings that sound good!</mutableString>
                                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -1081,7 +1070,7 @@ Pinch of cinnamon, optional
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jB3-b8-wYv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2824" y="1431"/>
+            <point key="canvasLocation" x="2823.741007194245" y="1430.9352517985612"/>
         </scene>
     </scenes>
     <resources>
@@ -1098,6 +1087,7 @@ Pinch of cinnamon, optional
         <image name="vegetarian-bean-tacos-recipe" width="550" height="824"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="I5a-jp-FSY"/>
         <segue reference="xyK-gf-qB1"/>
         <segue reference="qD7-N7-ak8"/>
     </inferredMetricsTieBreakers>
