@@ -51,7 +51,7 @@
                                     <color key="titleColor" red="0.98823529409999999" green="0.88235294119999996" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Lk9-xT-sEq" kind="showDetail" id="eG1-Gw-Lm2"/>
+                                    <segue destination="Lk9-xT-sEq" kind="show" id="E0A-PY-2VC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsy-6g-bUw">
@@ -113,8 +113,7 @@
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HZ2-9h-NKb">
                                                 <rect key="frame" x="357" y="196" width="424" height="701"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" name="unemphasizedSelectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                <string key="text">Ingredients: Quick-pickled onions, Creamy avocado dip, Easy refried beans, 8 corn tortillas. 
+                                                <mutableString key="text">Ingredients: Quick-pickled onions, Creamy avocado dip, Easy refried beans, 8 corn tortillas. 
 1. Cut off the stem ends of the chilis and shake/flick the chilis to remove as many seeds as possible (it’s ok if some remain). Rinse them and pat them dry.
 2. Heat an empty Dutch oven or soup pot over medium heat until a few drops of water evaporate quickly from the pan.       3. Toast the chilis in the dry pan, pressing them flat with a spatula for a few seconds until fragrant, then flip them over and press them again for a few seconds. Remove the toasted chilis and set them aside for now.
 4. In the same pot (still over medium heat), warm the olive oil until shimmering. Add the onion and a pinch of salt. Cook, stirring often, until the onions are tender and translucent, about 5 minutes.
@@ -122,8 +121,8 @@
 6. Add the toasted chili peppers, bay leaf, hominy, beans, vegetable broth and water to the pot. Stir in ½ teaspoon salt and raise the heat to medium-high. Bring the mixture to a simmer, then reduce heat as necessary to maintain a gentle simmer, stirring occasionally, and cook for 25 minutes.
 7. Remove the chili peppers and bay leaf from the soup and discard them. Stir the cilantro and juice of ½ lime into the soup. Taste, and add more salt (I usually add at least ¼ teaspoon more) and/or lime juice if necessary. For extra richness, add a little splash of olive oil and stir it in.
 8. Cut the remaining lime into small wedges. Divide the soup into bowls and garnish with lime wedges and other garnishes of your choice.
-</string>
-                                                <fontDescription key="fontDescription" name="BodoniOrnamentsITCTT" family="Bodoni Ornaments" pointSize="17"/>
+</mutableString>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vegetaran Tacos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9Z-wp-thM">
@@ -140,7 +139,6 @@
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Xsa-cZ-3fE">
                                                 <rect key="frame" x="357" y="947" width="424" height="484"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" name="unemphasizedSelectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 <string key="text">Tomato sauce (or substitute 2 cups prepared marinara sauce)
 
 1 can (28 ounces) diced tomatoes
@@ -167,13 +165,12 @@ Garnish: sprinkling of additional chopped fresh basil
 
 
 </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A0v-iM-8dU">
                                                 <rect key="frame" x="64" y="1439" width="722" height="536"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" name="unemphasizedSelectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 <string key="text">1 Preheat oven to 425 degrees Fahrenheit. To prepare the tomato sauce, first pour the tomatoes into a mesh sieve or fine colander and let them drain off excess juice for a minute. Transfer drained tomatoes to the bowl of a food processor. Add the basil, olive oil, garlic, salt and pepper flakes. Pulse the mixture about 10 times, until the tomatoes have broken down to an easily spreadable consistency. Pour the mixture into a bowl for later (you should have about 2 cups sauce).
 2. Rinse out the food processor and return it to the machine. Pour half of the cottage cheese (1 cup) into the processor and blend it until smooth, about 1 minute. Transfer the mixture to large mixing bowl. No need to rinse out the bowl of the food processor this time; just put it back onto the machine because you’ll need it later.
 3. Warm 2 tablespoons olive oil a large skillet over medium heat. Once the oil is shimmering, add the chopped onion and ¼ teaspoon salt. Cook, stirring often, until the onion is tender and translucent, about 4 to 5 minutes. Add the garlic and cook, stirring constantly, until fragrant, about 30 seconds.
@@ -192,7 +189,6 @@ Garnish: sprinkling of additional chopped fresh basil
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="COh-LV-fkx">
                                                 <rect key="frame" x="413" y="2178" width="368" height="324"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" name="unemphasizedSelectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 <string key="text">INGREDIENTS
 
 2 eggs
@@ -212,7 +208,6 @@ Salsa or additional hot sauce, for serving</string>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HNh-gU-iNU">
                                                 <rect key="frame" x="70" y="2570" width="711" height="390"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" name="unemphasizedSelectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 <string key="text">1. To prepare the eggs: In a bowl, whisk the eggs with the hot sauce and salt until they are well blended. Add the beans and set aside.
 2. To cook the eggs: Melt the butter in a medium-sized skillet (either well-seasoned cast iron or nonstick) over medium heat until it’s bubbling. Pour in the egg mixture and cook, stirring often, until the eggs are just set, about 1 to 3 minutes. Transfer the mixture to a bowl to pause the cooking process (the eggs will finish cooking in the quesadilla). Stir in the green onion, cilantro and jalapeño.
 3. To cook the quesadilla: In a separate, large skillet, warm the tortilla over medium heat, flipping occasionally. Once the pan and tortilla are warm, sprinkle one-half of the cheese over one-half of the tortilla. Top the cheese with scrambled eggs, then top the scrambled eggs with the remaining cheese.
@@ -241,10 +236,6 @@ Salsa or additional hot sauce, for serving</string>
                                                     </navigationItem>
                                                 </items>
                                             </navigationBar>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vegetarian-bean-tacos-recipe" translatesAutoresizingMaskIntoConstraints="NO" id="OI2-Yl-iJ6">
-                                                <rect key="frame" x="59" y="129" width="290" height="660"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spinach Artichoke Lasagna" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v35-Qh-kGQ">
                                                 <rect key="frame" x="376" y="905" width="379" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -252,6 +243,10 @@ Salsa or additional hot sauce, for serving</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vegetarian-bean-tacos-recipe" translatesAutoresizingMaskIntoConstraints="NO" id="OI2-Yl-iJ6">
+                                                <rect key="frame" x="59" y="196" width="290" height="423"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" name="unemphasizedSelectedContentBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         <constraints>
@@ -290,13 +285,16 @@ Salsa or additional hot sauce, for serving</string>
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="vrA-1i-1Df">
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.62352941179999999" green="0.92941176469999998" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="separatorColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <navigationBar key="tableFooterView" contentMode="scaleToFill" id="2UE-ff-EYG">
                             <rect key="frame" x="0.0" y="72" width="834" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <items>
                                 <navigationItem id="agX-6z-o8u">
                                     <barButtonItem key="rightBarButtonItem" title="Add New Recipe" id="erj-wD-9B5">
+                                        <color key="tintColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="Atn-ov-mJ8" kind="show" id="wUy-tE-Ekc"/>
                                         </connections>
@@ -305,13 +303,14 @@ Salsa or additional hot sauce, for serving</string>
                             </items>
                         </navigationBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dxb-98-iPQ">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" shouldIndentWhileEditing="NO" id="dxb-98-iPQ">
                                 <rect key="frame" x="0.0" y="28" width="834" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dxb-98-iPQ" id="4hj-Wv-UaV">
                                     <rect key="frame" x="0.0" y="0.0" width="834" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.97647058819999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -338,33 +337,24 @@ Salsa or additional hot sauce, for serving</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Enter Ingredients List" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jtB-3q-qda">
                                 <rect key="frame" x="95" y="92" width="240" height="326"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Recipe Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9P1-dt-pew">
                                 <rect key="frame" x="104" y="446" width="630" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEB-yy-PIM">
-                                <rect key="frame" x="130" y="484" width="171" height="47"/>
+                                <rect key="frame" x="149" y="485" width="186" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.97647058819999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="30"/>
                                 <state key="normal" title="Take a picture"/>
                                 <connections>
                                     <action selector="takeAPicture:" destination="Atn-ov-mJ8" eventType="touchUpInside" id="agp-9i-syf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCu-7w-WPd">
-                                <rect key="frame" x="437" y="483" width="238" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="choose from library"/>
-                                <connections>
-                                    <action selector="chooseFromLibrary:" destination="Atn-ov-mJ8" eventType="touchUpInside" id="XQj-AY-Mrt"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="un6-Jt-lRu">
@@ -382,8 +372,9 @@ Salsa or additional hot sauce, for serving</string>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJT-Pa-sE4">
-                                <rect key="frame" x="375" y="1002" width="84" height="30"/>
+                                <rect key="frame" x="319" y="1002" width="201" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="38"/>
                                 <state key="normal" title="Save Recipe"/>
                                 <connections>
                                     <action selector="saveNewRecipe:" destination="Atn-ov-mJ8" eventType="touchUpInside" id="X2d-Mc-7rZ"/>
@@ -396,12 +387,22 @@ Salsa or additional hot sauce, for serving</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Enter Instructions" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WwD-b1-V8f">
                                 <rect key="frame" x="343" y="92" width="452" height="326"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCu-7w-WPd">
+                                <rect key="frame" x="439" y="484" width="260" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.97647058819999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="30"/>
+                                <state key="normal" title="choose from library"/>
+                                <connections>
+                                    <action selector="chooseFromLibrary:" destination="Atn-ov-mJ8" eventType="touchUpInside" id="XQj-AY-Mrt"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.97647058819999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="exG-J8-C33"/>
                     </view>
                     <connections>
@@ -437,21 +438,34 @@ Salsa or additional hot sauce, for serving</string>
                                 </items>
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Enter Ingredients List" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cwP-jm-TLj">
-                                <rect key="frame" x="102" y="600" width="240" height="326"/>
+                                <rect key="frame" x="102" y="632" width="240" height="326"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Enter Instructions" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Flj-qV-24d">
-                                <rect key="frame" x="338" y="600" width="452" height="326"/>
+                                <rect key="frame" x="362" y="632" width="370" height="326"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPh-Sy-hQD">
+                                <rect key="frame" x="102" y="590" width="159" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="30"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMi-z9-1MM">
+                                <rect key="frame" x="362" y="589" width="166" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="30"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.62352941179999999" green="0.92941176469999998" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ltj-fV-OM9"/>
                     </view>
                     <connections>
@@ -473,36 +487,31 @@ Salsa or additional hot sauce, for serving</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meet The Creators" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKm-za-cFh">
-                                <rect key="frame" x="224" y="112" width="387" height="59"/>
+                                <rect key="frame" x="224" y="112" width="400" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="49"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.97647058819999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Photo on 8-1-19 at 11.03 AM" translatesAutoresizingMaskIntoConstraints="NO" id="HdO-fp-teU">
                                 <rect key="frame" x="144" y="195" width="546" height="379"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lauren Workosky and Alana Mackey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jq9-mz-jRX">
-                                <rect key="frame" x="208" y="582" width="419" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nzR-k3-MYK">
                                 <rect key="frame" x="144" y="639" width="546" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Lauren Workosky is 18 and will be a freshman at Lehigh University in the fall. This is her second year as a Kode with Klossy scholar.  Also a second year scholar, Alana Mackey is a rising senior very excited to  pursue her interests in computer science. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.97647058819999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Our Mission with Earth and Body: Strive for the healthiest environment and the healthiest individual through food choices." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Sd0-Ed-Sax">
                                 <rect key="frame" x="144" y="812" width="546" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="backgroundColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.97647058819999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yxo-hV-21H">
@@ -518,8 +527,15 @@ Salsa or additional hot sauce, for serving</string>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lauren Workosky and Alana Mackey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jq9-mz-jRX">
+                                <rect key="frame" x="195" y="582" width="444" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="27"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.97647058819999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="v96-z7-XbH"/>
                     </view>
                 </viewController>
@@ -535,16 +551,8 @@ Salsa or additional hot sauce, for serving</string>
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6M9-QK-YSP">
-                                <rect key="frame" x="124" y="181" width="196" height="227"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="180"/>
-                                <state key="normal" title="🐖"/>
-                                <connections>
-                                    <action selector="clickPig:" destination="Lk9-xT-sEq" eventType="touchUpInside" id="gCg-9h-hCz"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOv-9X-D88">
-                                <rect key="frame" x="35" y="444" width="374" height="163"/>
+                                <rect key="frame" x="124" y="444" width="196" height="163"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="180"/>
                                 <state key="normal" title="🐄"/>
                                 <connections>
@@ -559,59 +567,74 @@ Salsa or additional hot sauce, for serving</string>
                                     <action selector="clickChicken:" destination="Lk9-xT-sEq" eventType="touchUpInside" id="x6h-4s-TNk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Need some motivation for your diet?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhQ-yA-7q6">
-                                <rect key="frame" x="69" y="136" width="696" height="77"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Need some motivation for your diet?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhQ-yA-7q6">
+                                <rect key="frame" x="99" y="92" width="638" height="77"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="39"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap an animal to see why you shouldn't eat it" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6H7-fn-6aJ">
-                                <rect key="frame" x="124" y="986" width="586" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tap an animal to see why you shouldn't eat it" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6H7-fn-6aJ">
+                                <rect key="frame" x="26" y="1006" width="782" height="43"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="39"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NUa-7B-TbP">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NUa-7B-TbP">
                                 <rect key="frame" x="1" y="20" width="834" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Motivation" id="VDi-kl-WYN">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="vs9-bl-oKZ">
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="BoF-PH-xyt"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem title="Motivation" id="VDi-kl-WYN"/>
                                 </items>
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Why you shouldn't eat chicken" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KZM-sp-DS0">
                                 <rect key="frame" x="407" y="760" width="407" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.88235294119999996" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Why you shouldn't eat cow" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="acS-hB-oma">
                                 <rect key="frame" x="407" y="492" width="407" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.88235294119999996" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Why you shouldn't eat pig" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wWt-QS-2kf">
-                                <rect key="frame" x="407" y="259" width="407" height="128"/>
+                                <rect key="frame" x="407" y="211" width="407" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.88235294119999996" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6M9-QK-YSP">
+                                <rect key="frame" x="124" y="138" width="196" height="227"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="180"/>
+                                <state key="normal" title="🐖"/>
+                                <connections>
+                                    <action selector="clickPig:" destination="Lk9-xT-sEq" eventType="touchUpInside" id="gCg-9h-hCz"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.98823529409999999" green="0.88235294119999996" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="gOv-9X-D88" firstAttribute="top" secondItem="6M9-QK-YSP" secondAttribute="bottom" constant="81" id="84G-Dh-9ad"/>
-                            <constraint firstItem="rhQ-yA-7q6" firstAttribute="leading" secondItem="6M9-QK-YSP" secondAttribute="trailing" constant="-251" id="cFN-Ma-4B6"/>
-                            <constraint firstItem="OGd-Pg-gNa" firstAttribute="top" secondItem="gOv-9X-D88" secondAttribute="bottom" constant="75" id="x8r-Ps-Kdt"/>
+                            <constraint firstItem="gOv-9X-D88" firstAttribute="top" secondItem="6M9-QK-YSP" secondAttribute="bottom" constant="70" id="43v-YZ-il9"/>
+                            <constraint firstItem="gOv-9X-D88" firstAttribute="centerX" secondItem="dbG-Np-nI7" secondAttribute="centerX" constant="-195" id="AIT-mL-0O1"/>
+                            <constraint firstItem="6H7-fn-6aJ" firstAttribute="centerX" secondItem="dbG-Np-nI7" secondAttribute="centerX" id="FNq-A0-aT9"/>
+                            <constraint firstItem="rhQ-yA-7q6" firstAttribute="centerX" secondItem="dbG-Np-nI7" secondAttribute="centerX" constant="1" id="HxG-fr-MTe"/>
+                            <constraint firstItem="OGd-Pg-gNa" firstAttribute="top" secondItem="gOv-9X-D88" secondAttribute="bottom" constant="75" id="I5g-u9-Rh1"/>
+                            <constraint firstItem="rhQ-yA-7q6" firstAttribute="top" secondItem="NUa-7B-TbP" secondAttribute="bottom" constant="28" id="KkN-0q-qvY"/>
+                            <constraint firstItem="6H7-fn-6aJ" firstAttribute="leading" secondItem="1aT-wN-hcO" secondAttribute="leading" constant="26" id="PEp-vV-4V6"/>
+                            <constraint firstItem="6H7-fn-6aJ" firstAttribute="top" secondItem="OGd-Pg-gNa" secondAttribute="bottom" constant="97" id="Qyw-ZT-OdX"/>
+                            <constraint firstItem="gOv-9X-D88" firstAttribute="leading" secondItem="1aT-wN-hcO" secondAttribute="leading" constant="124" id="ZDZ-Qy-szM"/>
+                            <constraint firstItem="OGd-Pg-gNa" firstAttribute="leading" secondItem="1aT-wN-hcO" secondAttribute="leading" constant="124" id="ky4-EK-8Y2"/>
+                            <constraint firstItem="rhQ-yA-7q6" firstAttribute="leading" secondItem="1aT-wN-hcO" secondAttribute="leading" constant="99" id="o4d-sg-Vxa"/>
+                            <constraint firstItem="6M9-QK-YSP" firstAttribute="leading" secondItem="1aT-wN-hcO" secondAttribute="leading" constant="124" id="vTF-7X-1ym"/>
+                            <constraint firstItem="6M9-QK-YSP" firstAttribute="top" secondItem="NUa-7B-TbP" secondAttribute="bottom" constant="74" id="w1X-HN-bQ9"/>
+                            <constraint firstItem="6M9-QK-YSP" firstAttribute="centerX" secondItem="dbG-Np-nI7" secondAttribute="centerX" constant="-195" id="xON-Cq-Kz9"/>
+                            <constraint firstItem="OGd-Pg-gNa" firstAttribute="centerX" secondItem="dbG-Np-nI7" secondAttribute="centerX" constant="-195" id="z4S-XU-Byl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1aT-wN-hcO"/>
                     </view>
@@ -654,8 +677,8 @@ Salsa or additional hot sauce, for serving</string>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SSa-xE-pqX">
                                 <rect key="frame" x="0.0" y="20" width="834" height="2980"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="11O-0D-93Z">
-                                        <rect key="frame" x="0.0" y="0.0" width="826" height="4000"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="11O-0D-93Z">
+                                        <rect key="frame" x="0.0" y="0.0" width="826" height="3000"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GUN-Zz-667">
                                                 <rect key="frame" x="357" y="196" width="424" height="340"/>
@@ -679,7 +702,7 @@ Salsa or additional hot sauce, for serving</string>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pinto Posole" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5o-cD-Kgh">
                                                 <rect key="frame" x="374" y="892" width="379" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -708,7 +731,7 @@ Salsa or additional hot sauce, for serving</string>
 ¼ cup chopped cilantro, divided
 1 lime, halved
 Recommended garnishes: sliced avocado, shredded green cabbage, chopped radish, onion and/or jalapeño</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rvj-hN-HFj">
@@ -725,12 +748,14 @@ In the same pot (still over medium heat), warm the olive oil until shimmering. A
 4. Add the toasted chili peppers, bay leaf, hominy, beans, vegetable broth and water to the pot. Stir in ½ teaspoon salt and raise the heat to medium-high. Bring the mixture to a simmer, then reduce heat as necessary to maintain a gentle simmer, stirring occasionally, and cook for 25 minutes.
 5. Remove the chili peppers and bay leaf from the soup and discard them. Stir the cilantro and juice of ½ lime into the soup. Taste, and add more salt (I usually add at least ¼ teaspoon more) and/or lime juice if necessary. For extra richness, add a little splash of olive oil and stir it in.
 6. Cut the remaining lime into small wedges. Divide the soup into bowls and garnish with lime wedges and other garnishes of your choice.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baked-falafel-recipe-550x824" translatesAutoresizingMaskIntoConstraints="NO" id="Aei-F4-wPC">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="baked-falafel-recipe-550x824" translatesAutoresizingMaskIntoConstraints="NO" id="Aei-F4-wPC">
                                                 <rect key="frame" x="47" y="140" width="302" height="421"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="302" id="7Zj-So-zKV"/>
+                                                </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simple-vegan-pancakes-1-550x757" translatesAutoresizingMaskIntoConstraints="NO" id="Ird-dE-VSo">
                                                 <rect key="frame" x="81" y="1948" width="299" height="450"/>
@@ -750,7 +775,7 @@ In the same pot (still over medium heat), warm the olive oil until shimmering. A
 2 tablespoons maple syrup or sugar of choice
 1 teaspoon pure vanilla extract
 More oil to grease your pan/skillet, if necessary</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ovb-Uy-7bp">
@@ -766,7 +791,7 @@ More oil to grease your pan/skillet, if necessary</string>
 4. If necessary, lightly oil the cooking surface with additional oil or cooking spray (I don’t oil the surface of my non-stick griddle and my pancakes turned out great).
 Using a ¼-cup measure, scoop the batter onto the warm skillet. Cook for 2 to 3 minutes until small bubbles form on the surface of the pancakes (you’ll know it’s ready to flip when about ½-inch of the perimeter is matte instead of glossy), and flip. Cook on the opposite sides for 1 to 2 minutes, or until golden brown.
 5. Repeat the process with the remaining batter, adding more oil as needed. You may need to adjust the heat up or down at this point. Serve the pancakes immediately or keep warm in a 200 degree Fahrenheit oven.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Simple Vegan Pancakes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e45-sd-Vrn">
@@ -787,12 +812,11 @@ Using a ¼-cup measure, scoop the batter onto the warm skillet. Cook for 2 to 3 
 In a food processor, combine the soaked and drained chickpeas, onion, parsley, cilantro, garlic, salt, pepper, cumin, cinnamon, and the remaining 1 tablespoon of olive oil. Process until smooth, about 1 minute.
 Using your hands, scoop out about 2 tablespoons of the mixture at a time. Shape the falafel into small patties, about 2 inches wide and ½ inch thick. Place each falafel on your oiled pan.
 Bake for 25 to 30 minutes, carefully flipping the falafels halfway through baking, until the falafels are deeply golden on both sides. These falafels keep well in the refrigerator for up to 4 days, or in the freezer for several months.</mutableString>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AK5-mf-z2n">
-                                                <rect key="frame" x="0.0" y="0.0" width="834" height="44"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AK5-mf-z2n">
+                                                <rect key="frame" x="0.0" y="0.0" width="834" height="50"/>
                                                 <items>
                                                     <navigationItem title="Vegan Recipes" id="N2A-FX-98E">
                                                         <barButtonItem key="rightBarButtonItem" title="&gt;&gt;" id="cnS-4W-fMC">
@@ -815,6 +839,10 @@ Bake for 25 to 30 minutes, carefully flipping the falafels halfway through bakin
                                         <constraints>
                                             <constraint firstAttribute="width" constant="826" id="Cbu-xQ-3Os"/>
                                             <constraint firstAttribute="height" constant="3000" id="ITW-kn-Ptm"/>
+                                            <constraint firstAttribute="trailing" secondItem="AK5-mf-z2n" secondAttribute="trailing" constant="-8" id="Q9Q-vL-DRc"/>
+                                            <constraint firstItem="Aei-F4-wPC" firstAttribute="centerX" secondItem="11O-0D-93Z" secondAttribute="centerX" constant="-215" id="V2g-KH-Ebs"/>
+                                            <constraint firstItem="AK5-mf-z2n" firstAttribute="top" secondItem="11O-0D-93Z" secondAttribute="top" id="Xy3-XQ-Jo7"/>
+                                            <constraint firstItem="AK5-mf-z2n" firstAttribute="leading" secondItem="11O-0D-93Z" secondAttribute="leading" id="hmM-7J-bju"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -858,7 +886,6 @@ Bake for 25 to 30 minutes, carefully flipping the falafels halfway through bakin
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pf6-04-VQh">
                                                 <rect key="frame" x="357" y="196" width="424" height="501"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">INGREDIENTS
 
 Filling
@@ -886,7 +913,7 @@ Remaining Ingredients
 1 tablespoon water
 ¼ cup chopped red onion
 ¼ cup chopped fresh cilantro</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Black Bean Sweet Potato Enchaladas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9w9-My-8if">
@@ -910,7 +937,6 @@ Remaining Ingredients
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nhx-V8-Njk">
                                                 <rect key="frame" x="398" y="1243" width="393" height="477"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">INGREDIENTS
 
 3 tablespoons extra-virgin olive oil, divided
@@ -931,13 +957,12 @@ Freshly ground black pepper
 ¼ cup chopped fresh parsley, plus about 1 tablespoon more for garnish
 2 tablespoons lemon juice, plus additional lemon wedges for garnish
 ½ cup frozen peas</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QNK-eB-8Oa">
                                                 <rect key="frame" x="57" y="1753" width="712" height="534"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">INSTRUCTIONS
 
 
@@ -949,7 +974,7 @@ Freshly ground black pepper
 6. Roast the vegetables on the upper rack until the artichokes and peppers are tender and browned around the edges, about 40 to 45 minutes. Remove from the oven and let the vegetables cool for a few minutes. Add ¼ cup parsley to the pan and the lemon juice, and toss to combine. Season with salt and pepper, to taste. Set aside.
 7. For optional socarrat (crispy bottom—beware that you might have to scrub burnt bits from your pot later if you do this): Uncover the pot of baked rice, transfer it to the stovetop and cook over medium-high heat for about 5 minutes, rotating the pot as needed, until the bottom layer of rice is well browned and crisp.
 8. Socarrat or not, sprinkle the peas and roasted vegetables over the baked rice, cover, and let the paella sit for 5 minutes. Garnish with a sprinkle of chopped parsley (about 1 tablespoon) and serve in individual bowls, with lemon wedges on the side.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gluten-free-oat-waffles-recipe-2-1-550x824" translatesAutoresizingMaskIntoConstraints="NO" id="gaf-Gy-owe">
@@ -959,7 +984,6 @@ Freshly ground black pepper
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ceW-bB-zCY">
                                                 <rect key="frame" x="474" y="2432" width="240" height="283.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">INGREDIENTS
 
 1 ½ cups (128 grams) oat flour*, certified gluten-free if necessary
@@ -971,20 +995,19 @@ Pinch of cinnamon, optional
 2 large eggs
 2 tablespoons maple syrup
 1 teaspoon vanilla extract</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oat Waffles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sJ-a1-KnK">
-                                                <rect key="frame" x="549" y="2382" width="90" height="21"/>
+                                                <rect key="frame" x="552" y="2382" width="87" height="19"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CAC-5l-kCD">
                                                 <rect key="frame" x="48" y="705" width="698" height="384"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">INSTRUCTIONS
 
 
@@ -996,7 +1019,7 @@ Pinch of cinnamon, optional
 6. Working with one tortilla at a time, spread about ½ cup filling down the center each tortilla, then wrap both sides over the filling and place it in your baking dish. Repeat for all of the tortillas.
 7. Top with the remaining salsa verde and cheese. Bake for 25 to 35 minutes, until sauce is bubbling and the cheese is lightly golden.
 8. Let the enchiladas cool for about 5 minutes. Whisk the sour cream and water together to make a drizzly sour cream sauce. Drizzle it back and forth over the enchiladas, then top them with cilantro and red onion. Serve.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baked-sweet-potato-enchiladas-3-550x824" translatesAutoresizingMaskIntoConstraints="NO" id="rr6-oG-7xL">
@@ -1006,7 +1029,6 @@ Pinch of cinnamon, optional
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jo1-nk-BG9">
                                                 <rect key="frame" x="78" y="2849" width="636" height="333.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">INSTRUCTIONS
 
 
@@ -1014,7 +1036,7 @@ Pinch of cinnamon, optional
 2. Pour the wet ingredients into the dry ingredients. Stir with a big spoon until just combined (the batter will still be a little lumpy). Let the batter rest for 10 minutes so the oat flour has time to soak up some of the moisture. Plug in your waffle iron to preheat now (if your waffle iron has a temperature/browning dial, set it to medium-high).
 3. Once 10 minutes is up, give the batter one more swirl with your spoon. Pour batter onto the heated waffle iron, enough to cover the center and most of the central surface area, and close the lid. Once the waffle is deeply golden and crisp, transfer it to a cooling rack or baking sheet. Don’t stack your waffles on top of each other, or they’ll lose crispness. If desired, keep your waffles        4. warm by placing them in a 200 degree oven until you’re ready to serve.
 5. Repeat with remaining batter. Serve waffles with maple syrup and nut butter, or any other toppings that sound good!</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VJs-PY-yis">
@@ -1031,7 +1053,7 @@ Pinch of cinnamon, optional
                                                 </items>
                                             </navigationBar>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.99607843139999996" green="0.97647058819999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="3500" id="LDU-E9-X2s"/>
                                             <constraint firstAttribute="width" constant="826" id="W7v-N3-24k"/>
@@ -1079,4 +1101,5 @@ Pinch of cinnamon, optional
         <segue reference="xyK-gf-qB1"/>
         <segue reference="qD7-N7-ak8"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.0078431372550000003" green="0.40000000000000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
